@@ -1,0 +1,43 @@
+memo = "fa1a8d43c1ea3282d953b6dcc7686f1b6fba1b6b2cdd875405f76400aeee3e4f"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/go-gl/gl"
+  packages = ["v2.1/gl"]
+  revision = "39ef8e959f4050148ec5a59816a93b9e65b4528f"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/go-gl/glfw"
+  packages = ["v3.2/glfw"]
+  revision = "222b83c41c19cc975bfbf6f2611f3a97bde91a56"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gopherjs/gopherjs"
+  packages = ["js","nosync"]
+  revision = "2b1d432c8a82c9bff0b0baffaeb3ec6e92974112"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gopherjs/webgl"
+  packages = ["."]
+  revision = "a2d36020a9b2af0f7aefb23467ab48f3b501beec"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hajimehoshi/ebiten"
+  packages = [".","internal","internal/affine","internal/clock","internal/endian","internal/graphics","internal/jni","internal/loop","internal/opengl","internal/restorable","internal/sync","internal/ui","internal/web"]
+  revision = "84a7787ac9ed80a6f976a0c3fd9b949fb900a925"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/mobile"
+  packages = ["gl"]
+  revision = "683b305bdbdf5901d6d9b094e4948b51a37403a2"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["windows"]
+  revision = "b892924b68aa53038e8a55b255ee0d8391e8eec5"
