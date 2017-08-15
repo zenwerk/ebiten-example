@@ -1,4 +1,4 @@
-memo = "fa1a8d43c1ea3282d953b6dcc7686f1b6fba1b6b2cdd875405f76400aeee3e4f"
+memo = "1ddb2c65015e23d7e0aa41d17f3713655c086cce207579e01e4a0c235d1b2dba"
 
 [[projects]]
   branch = "master"
@@ -27,17 +27,29 @@ memo = "fa1a8d43c1ea3282d953b6dcc7686f1b6fba1b6b2cdd875405f76400aeee3e4f"
 [[projects]]
   branch = "master"
   name = "github.com/hajimehoshi/ebiten"
-  packages = [".","internal","internal/affine","internal/clock","internal/endian","internal/graphics","internal/jni","internal/loop","internal/opengl","internal/restorable","internal/sync","internal/ui","internal/web"]
-  revision = "84a7787ac9ed80a6f976a0c3fd9b949fb900a925"
+  packages = [".","ebitenutil","ebitenutil/internal/assets","internal","internal/affine","internal/clock","internal/endian","internal/graphics","internal/jni","internal/math","internal/opengl","internal/restorable","internal/sync","internal/ui","internal/web"]
+  revision = "93173506f5b10e38943871574af51514ec989b8d"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/neguse/go-box2d-lite"
+  packages = ["box2dlite"]
+  revision = "701a7cd3be93081fa317b79cb96786045759338a"
+
+[[projects]]
+  name = "github.com/sirupsen/logrus"
+  packages = ["."]
+  revision = "a3f95b5c423586578a4e099b11a46c2479628cac"
+  version = "1.0.2"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/mobile"
   packages = ["gl"]
-  revision = "683b305bdbdf5901d6d9b094e4948b51a37403a2"
+  revision = "e66540375e9941f301a0fbd8134a06076bfc873e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
-  packages = ["windows"]
-  revision = "b892924b68aa53038e8a55b255ee0d8391e8eec5"
+  packages = ["unix","windows"]
+  revision = "c84c1ab9fd18cdd4c23dd021c10f5f46dea95e46"
